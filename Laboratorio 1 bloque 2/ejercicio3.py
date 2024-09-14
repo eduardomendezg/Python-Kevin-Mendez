@@ -41,5 +41,5 @@ class Ventana(QWidget):
 app = QApplication(sys.argv)
 ventana = Ventana()
 ventana.show()
-sys.exit(app.exec_())
+app.exec_()
 
